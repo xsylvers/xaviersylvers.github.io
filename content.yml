@@ -1,1 +1,23 @@
+name: Xavier Sylvers
+title: AI Consultant (Training • Strategy • Development)
+location: Bayonne, NJ
 
+tagline: >
+  I help businesses integrate AI safely and effectively through
+  hands-on training, strategic planning, and automation development.
+
+services:
+  - AI team training (prompt engineering, workflow design, AI policy)
+  - AI strategy audits (use case analysis, ROI mapping, risk assessment)
+  - Custom automation development (internal tools, process optimization)
+  - Local-first AI system deployment
+
+proof:
+  - Built a local AI Toolkit CLI for agent-based workflows
+  - Designed a GitHub Pages auto-generated web presence system
+  - Implemented automation systems using Python and Node.js
+
+contact:
+  email: xaviersylvers@gmail.com
+  booking_url: https://cal.com/  # replace with your actual booking link later
+  contact_form_action: https://formsubmit.co/xaviersylvers@gmail.com
