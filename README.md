@@ -1,19 +1,33 @@
 # AI Consultant Web Presence (GitHub Pages + Auto Build)
 
 This is a proof-of-concept system for an AI consultant web presence that is:
-- Hosted on GitHub Pages (free)
+- Hosted on GitHub Pages
 - Updated from a single source of truth (`content.yml`)
 - Automatically rebuilt and published using GitHub Actions
-- Maintainable without manually editing generated HTML
+- Maintainable without manually editing generated HTML (content is managed through YAML and automated tools)
 
 ## Live Site
-- https://xsylvers.github.io/xaviersylvers.github.io/
+- https://xsylvers.github.io/
 
 ## How It Works
-- `content.yml` = single source of truth for site content
-- `build/build.js` = generator script that builds `docs/index.html`
-- `.github/workflows/build.yml` = GitHub Action that runs on every update and commits the rebuilt site
-- GitHub Pages serves the site from the `/docs` folder
+The site can also be updated using the AI Toolkit chat interface.
+
+Run:
+
+python src/ai_toolkit/chat_update.py
+
+Then type a message describing the update.
+
+Example:
+
+Helping businesses integrate AI into real business workflows
+
+The toolkit will:
+1. Update `content.yml`
+2. Commit the change
+3. Push to GitHub
+4. Trigger the GitHub Actions build
+5. Automatically rebuild the live site
 
 ## Setup (Fork & Deploy)
 1. Fork this repository.
