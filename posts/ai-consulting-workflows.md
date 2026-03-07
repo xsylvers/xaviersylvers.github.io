@@ -1,7 +1,8 @@
-title: "AI Consulting Workflows"
+---
+Title: "AI Consulting Workflows"
 date: "2026-03-06"
 tags: ["ai", "consulting"]
-
+---
 ## Summary
 This post was generated from a voice recording using the AI toolkit.
 
